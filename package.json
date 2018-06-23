@@ -14,6 +14,6 @@
   "scripts": {
     "build": "dart-sass assets/source/redfin.scss > assets/redfin.css",
     "bs": "browser-sync start --files=assets/* --files=index.html",
-    "watch": "onchange 'assets/**/*.scss' -- yarn build"
+    "watch": "onchange 'assets/**/*.scss' '*.md' -- yarn build"
   }
 }
