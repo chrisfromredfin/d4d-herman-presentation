@@ -37,8 +37,8 @@ The available slides are here:
 
 ### Using Markdown instead of HTML
 
-To use external Markdown files, you must be serving the presentation through a real web server. (If you are using) your
-Redfin Solutions VM, you can view your presentation at wherever.rfslocal.site and that is adequate.
+Currently, the use of Markdown is supported by Reveal.JS, but not our theme. For some reason, markdown is not appended
+inside of the .slides div, and this causes issues for us.
 
 ## More Reading
 
