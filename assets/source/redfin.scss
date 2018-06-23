@@ -1,15 +1,13 @@
 /**
- * Beige theme for reveal.js.
+ * Redfin theme for reveal.js.
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * Copyright (C) 2018 by Redfin Solutions, LLC https://redfinsolutions.com
  */
-
 
 // Default mixins and settings -----------------
 @import "../../node_modules/reveal.js/css/theme/template/mixins";
 @import "../../node_modules/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
-
 
 
 // Include theme-specific fonts
@@ -41,6 +39,7 @@ $heading4Size: 1em;
 $selectionBackgroundColor: lighten(#4ea6f5, 50%);
 $selectionColor: #fff;
 
+
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {
@@ -53,6 +52,7 @@ $selectionColor: #fff;
 @import "../../node_modules/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
+
 // Overrides -----------------------------------
 // ---------------------------------------------
 @import "partials/base";
@@ -64,3 +64,5 @@ $selectionColor: #fff;
 @import "partials/title_and_body";
 @import "partials/short";
 @import "partials/two_column";
+
+@import "partials/custom"; // Custom overrides - intentionally blank in upstream repo.
