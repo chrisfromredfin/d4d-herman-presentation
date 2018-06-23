@@ -1,0 +1,16 @@
+.reveal section.slide--card {
+  width: 88%;
+  height: 72%;
+  top: 14%;
+  left: 6%;
+  border-top: 10px solid $orange;
+
+  img.secondary {
+    border-color: $orange;
+  }
+
+  &::before {
+    background-color: white;
+    border: 3px solid $orange;
+  }
+}

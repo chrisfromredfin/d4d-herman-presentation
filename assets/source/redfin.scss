@@ -1,0 +1,66 @@
+/**
+ * Beige theme for reveal.js.
+ *
+ * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "../../node_modules/reveal.js/css/theme/template/mixins";
+@import "../../node_modules/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic);
+
+
+// Override theme settings (see ../template/settings.scss)
+$mainColor: #cdd9e6;
+$headingColor: #4ea6f5;
+$headingTextShadow: none;
+$backgroundColor: #13304f;
+$linkColor: #f16c41;
+$orange: #f16c41;
+$linkColorHover: #f24738;
+$heading1TextShadow: none; //0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
+$mainFontSize: 36px;
+
+$headingFont: 'Lato', sans-serif;
+$headingLineHeight: 1.1875;
+$headingLetterSpacing: 1.5;
+
+$heading1Size: 2em;
+$heading2Size: 1.33333em;
+$heading3Size: 1.16667em;
+$heading4Size: 1em;
+
+
+// Text selection
+$selectionBackgroundColor: lighten(#4ea6f5, 50%);
+$selectionColor: #fff;
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+  background: $backgroundColor url('waves.jpg') center;
+  background-size: cover;
+}
+
+
+// Theme template ------------------------------
+@import "../../node_modules/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+// Overrides -----------------------------------
+// ---------------------------------------------
+@import "partials/base";
+@import "partials/title";
+@import "partials/subtitle";
+@import "partials/more_narrow";
+@import "partials/card";
+@import "partials/narrow";
+@import "partials/title_and_body";
+@import "partials/short";
+@import "partials/two_column";

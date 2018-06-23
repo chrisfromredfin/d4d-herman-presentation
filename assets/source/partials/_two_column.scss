@@ -1,0 +1,22 @@
+.reveal section.slide--two-column {
+  padding-left: 40%;
+  padding-top: 1.75em;
+  justify-content: flex-start;
+
+  h1 {
+    font-size: 1.33333em;
+    position: absolute;
+    left: 1em;
+    top: 50%;
+    max-width: 30%;
+    transform: translateY(-50%);
+    text-align: left;
+    &::after {
+      content: ' ';
+      padding-top: 1em;
+      width: 30%;
+      display: block;
+      border-bottom: 2px solid white;
+    }
+  }
+}

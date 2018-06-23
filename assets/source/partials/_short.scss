@@ -1,0 +1,5 @@
+.reveal section.slide--short {
+  @extend %title-and-body;
+  height: 88%;
+  border-bottom: 10px solid $orange;
+}

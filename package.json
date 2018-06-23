@@ -1,0 +1,19 @@
+{
+  "name": "rfs-slide-deck",
+  "version": "1.0.0",
+  "description": "RFS slide deck template",
+  "main": "index.html",
+  "author": "Redfin Solutions, LLC",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "browser-sync": "^2.24.4",
+    "dart-sass": "1.6.2",
+    "onchange": "^4.0.0",
+    "reveal-md": "^2.0.6"
+  },
+  "scripts": {
+    "build": "dart-sass assets/source/redfin.scss > assets/redfin.css",
+    "bs": "browser-sync start --files=assets/* --files=index.html",
+    "watch": "onchange 'assets/**/*.scss' -- yarn build"
+  }
+}

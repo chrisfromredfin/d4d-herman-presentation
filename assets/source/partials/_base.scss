@@ -1,0 +1,79 @@
+/*********************************************
+ * SPECIFIC SLIDE CLASSES
+ *********************************************/
+.reveal .slides section {
+  background-color: transparentize($backgroundColor, 0.12);
+  box-sizing: border-box;
+  padding: calc(2em + 100px) 1em 1em 1em;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.reveal p {
+  text-shadow: 0 2px 4px $backgroundColor;
+}
+.reveal section::before {
+  background-color: transparentize(white, 0.8);
+  background-image: url('redfin-logo-mark.svg');
+  background-repeat: no-repeat;
+  background-size: 1.25em 1.25em;
+  background-position: center center;
+  border-radius: 50%;
+  content: ' ';
+  display: block;
+  height: 2em;
+  left: 1em;
+  padding: 0.5em;
+  position: fixed;
+  top: 1em;
+  width: 2em;
+}
+
+.reveal section {
+  // Secondary image
+  img.secondary {
+    position: fixed;
+    top: 1em;
+    left: calc(2em + 100px);
+    border-radius: 50%;
+    margin: 0;
+  }
+
+  // Thumbrow of images
+  .thumbrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    img {
+      border-width: 0;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: .5em;
+    }
+  }
+}
+
+%title-and-body {
+  padding-left: 5em;
+  padding-top: 0;
+
+  text-align: left;
+  display: block !important;
+  padding-top: 1.75em;
+
+  h1 {
+    font-size: 1.33333em;
+  }
+
+  p, ul, ol {
+    font-weight: 300
+  }
+}
+
+.reveal li {
+  line-height: 1.25;
+  margin-bottom: 0.75em;
+}

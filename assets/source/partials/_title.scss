@@ -1,0 +1,22 @@
+// Title Slide
+.reveal section.slide--title {
+
+  height: 100%;
+  background-color: transparentize($backgroundColor, 0.5);
+
+  h1 {
+    color: #cdd9e6;
+    font-weight: 900;
+    letter-spacing: 2.25px;
+    text-shadow: 2px 3px 7px 0 #13304F;
+  }
+
+  :last-child {
+    border-bottom: 10px solid #f16c41;
+  }
+
+  &::before {
+    background-image: url('redfin-logo-mark-reversed.svg');
+    background-color: $orange;
+  }
+}
