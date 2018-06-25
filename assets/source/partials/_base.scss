@@ -60,3 +60,7 @@
     }
   }
 }
+
+.reveal.overview .slides section {
+  background-color: transparentize($backgroundColor, 0.2);
+}

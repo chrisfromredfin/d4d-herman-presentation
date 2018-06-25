@@ -6,9 +6,9 @@ Redfin Solutions, LLC
 
 # slide 2
 
-some second slide shit.
+some second slide.
 
-fuck you.
+holla.
 
 --
 

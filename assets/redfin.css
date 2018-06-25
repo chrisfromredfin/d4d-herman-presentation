@@ -364,3 +364,7 @@ body {
   display: inline-block;
   margin-right: 0.5em;
 }
+
+.reveal.overview .slides section {
+  background-color: rgba(19, 48, 79, 0.8);
+}
