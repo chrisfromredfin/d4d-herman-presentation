@@ -43,8 +43,9 @@ $selectionColor: #fff;
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {
-  background: $backgroundColor url('waves.jpg') center;
+  background-position: center;
   background-size: cover;
+  background-image: url('waves.jpg');
 }
 
 
@@ -56,13 +57,4 @@ $selectionColor: #fff;
 // Overrides -----------------------------------
 // ---------------------------------------------
 @import "partials/base";
-@import "partials/title";
-@import "partials/subtitle";
-@import "partials/more_narrow";
-@import "partials/card";
-@import "partials/narrow";
-@import "partials/title_and_body";
-@import "partials/short";
-@import "partials/two_column";
-
 @import "partials/custom"; // Custom overrides - intentionally blank in upstream repo.

@@ -1,20 +1,22 @@
-<!-- .slide: class="slide--card" -->
-# Big Heading
-
-Some commentary, presumably about that heading.
+# Slide 1
+Christopher J. Wells  
+Redfin Solutions, LLC
 
 ---
 
+# slide 2
 
-## H1 heading
+some second slide shit.
 
-This is the paragraph of text that is available.
-
-* point 1
-* [point 2](https://redfinsolutions.com)
+fuck you.
 
 --
 
-And down we go!
+<img class="secondary" src="https://en.gravatar.com/userimage/45857937/d42cf9e078d9582683fb05a648c0764e.jpg?size=100">
+This is a thing
 
-Note: This is a speaker note, it will not show up, except in speaker notes!
+<div class="thumbrow">
+![Bill Murray](http://fillmurray.com/150/150 "Bill Murray")
+![Place Cage](http://placecage.com/150/150 "Nic Cage")
+![Steven Segal](http://stevensegallery.com/150/150 "Steven Segal")
+</div>
