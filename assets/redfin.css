@@ -23,13 +23,13 @@ body {
 
 ::selection {
   color: #fff;
-  background: white;
+  background: #4ea6f5;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: white;
+  background: #4ea6f5;
   text-shadow: none;
 }
 
@@ -367,4 +367,8 @@ body {
 
 .reveal.overview .slides section {
   background-color: rgba(19, 48, 79, 0.8);
+}
+
+.align-left {
+  text-align: left;
 }
