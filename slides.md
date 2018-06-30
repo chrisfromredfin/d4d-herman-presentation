@@ -13,6 +13,8 @@ Redfin Solutions, LLC
 * Redfin Solutions, LLC - Portland, ME
 * Exclusive Drupal shop since Drupal 4.7 (~2005)
 
+@sceo / cwells / chrisfromredfin 
+
 ---
 
 # Style Guide
@@ -21,6 +23,8 @@ Redfin Solutions, LLC
 * establishes standards / "what's already there"
 * *keep designers and developers in sync*
 
+Note: "Get designers and developers on the same page."
+
 --
 
 # "Living"
@@ -28,6 +32,8 @@ Redfin Solutions, LLC
 * agile
 * new needs, new components
 * maintenance projects
+
+Note: we do things agile, and even if not, we still build things in steps.
 
 --
 
@@ -39,6 +45,8 @@ Redfin Solutions, LLC
 
 > If it's not documented, it doesn't exist.  
 > *- Miriam Suzanne*
+
+Note: other tools exist: pattern lab, LivingCSS, KSS. I like because similar to PHPDoc. 
 
 ---
 
@@ -58,7 +66,7 @@ Redfin Solutions, LLC
 
 ```
 /// A general description.  
-/// @group Molecules
+/// @group molecules
 .btn {
   ...
 }
@@ -118,7 +126,7 @@ Herman is a SassDoc theme.
   _(* if displaying example sass/scss)_
 
 Note: v1
- 
+
 --
 
 Additional configuration for the .sassdocrc,   
@@ -126,10 +134,7 @@ specific to Herman:
 
 ```
 herman:
-  dest: guide
-  exclude:
-    - node_modules
-  theme: herman
+  ...
 ```
 
 Note: v2
@@ -257,4 +262,4 @@ _Know what else is heavily inspired by jinja2? Twig!_
 
 # Questions?
 
-![](https://pbs.twimg.com/media/C9YeDY7UQAEfULN.jpg)
+![](/assets/questions.jpg)
